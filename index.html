@@ -19,26 +19,57 @@
             border: 0;
          }
          .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #708871;
+            padding-bottom: 50px;
          }
          .main {
-         }
-         .social {
-         }
-         .social-media {
+            width: 100%;
+            max-width: 600px;
+            background-color: #bec6a0;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+            color: #44413d;
+            text-align: center;
+            font-family: "Poppins", Arial, Helvetica, sans-serif;
          }
          h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: -1px;
          }
          .button {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            border: 2px solid #7f786e;
+            padding: 10px 30px;
+            display: inline-block;
+            background-color: #708871;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
          }
          h2 {
+            font-size: 24px;
+            font-weight: 400;
+            margin: 0;
          }
          .two-columns {
+            font-size: 0;
          }
          .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: middle;
          }
          .two-columns .padding {
+            padding: 20px;
          }
          .two-columns .content {
+            font-size: 16px;
+            line-height: 22px;
          }
          @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
       </style>
@@ -47,21 +78,251 @@
       <center class="wrapper">
          <table class="main" width="100%">
             <!-- Start| LOGO -->
+            <tr>
+               <td style="line-height: 0">
+                  <a href="#"
+                     ><img
+                        src="./img/pexels-scottwebb-430205.jpg"
+                        alt="hero image"
+                        width="600"
+                        height="100"
+                        style="max-width: 100%; object-fit: cover"
+                  /></a>
+               </td>
+            </tr>
             <!-- End| LOGO -->
 
             <!-- Start| BANNER IMAGE -->
+            <tr>
+               <td style="line-height: 0">
+                  <a href="#"
+                     ><img
+                        src="./img/pexels-vishnurnair-1105666.jpg"
+                        alt="hero image"
+                        width="600"
+                        height="300"
+                        style="max-width: 100%; object-fit: cover"
+                  /></a>
+               </td>
+            </tr>
             <!-- End| BANNER IMAGE -->
 
             <!-- Start| TITLE, TEXT & BUTTON -->
+            <tr>
+               <td
+                  style="
+                     padding: 25px 15px 35px;
+                     border-bottom: 3px solid #44413d;
+                  "
+               >
+                  <table width="100%">
+                     <!-- Start |trow 1 -->
+                     <tr>
+                        <td>
+                           <h1>
+                              <span style="color: #775830">Shoes</span> Is What
+                              You Wear
+                           </h1>
+                        </td>
+                     </tr>
+                     <!-- End |trow 1 -->
+
+                     <!-- Start |trow 2 -->
+                     <tr>
+                        <td style="padding: 15px 25px">
+                           <p
+                              style="
+                                 font-size: 14px;
+                                 line-height: 23px;
+                                 margin: 0;
+                              "
+                           >
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Nostrum eligendi eum quasi
+                              dolorum sequi omnis reiciendis quisquam aliquid,
+                              eos temporibus quis, explicabo saepe dolor
+                              recusandae possimus et cumque autem! Iusto.
+                           </p>
+                        </td>
+                     </tr>
+                     <!-- End |trow 2 -->
+
+                     <!-- Start |button -->
+                     <tr>
+                        <td style="padding: 20px 0 10px">
+                           <a href="#" class="button" style="color: #fff"
+                              >Shoes Collection</a
+                           >
+                        </td>
+                     </tr>
+                     <!-- End |button -->
+                  </table>
+               </td>
+            </tr>
             <!-- End| TITLE, TEXT & BUTTON -->
 
-            <!-- Start| BORDER -->
-            <!-- End| BORDER -->
-
             <!--Start| TWO COLUMN SECTION -->
+            <tr>
+               <td style="padding: 15px 0 5px">
+                  <table width="100%">
+                     <tr>
+                        <!-- Start| Two-Columns -->
+                        <td class="two-columns">
+                           <!-- Start|Column_1 -->
+                           <table class="column">
+                              <tr>
+                                 <td class="padding">
+                                    <!-- Start|Content -->
+                                    <table class="content">
+                                       <tr>
+                                          <td>
+                                             <a href="#"
+                                                ><img
+                                                   src="./img/pexels-nytheone-1031955.jpg"
+                                                   alt=""
+                                                   width="250"
+                                                   height="250"
+                                                   style="object-fit: cover"
+                                             /></a>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                    <!-- End|Content -->
+                                 </td>
+                              </tr>
+                           </table>
+                           <!-- End|Column_1 -->
+
+                           <!-- Start|Column_2 -->
+                           <table class="column">
+                              <tr>
+                                 <td class="padding">
+                                    <!-- Start|Content -->
+                                    <table class="content">
+                                       <tr>
+                                          <td>
+                                             <h2>The New Style</h2>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <p>
+                                                Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit.
+                                                Sequi molestias ipsa voluptate
+                                                atque excepturi nihil
+                                                necessitatibus voluptatum
+                                                assumenda aliquid fugit. Ab ut
+                                                vitae minus in odio eos ad sed
+                                                accusamus.
+                                             </p>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <a
+                                                href="#"
+                                                class="button"
+                                                style="color: #fff"
+                                                >Read More</a
+                                             >
+                                          </td>
+                                       </tr>
+                                    </table>
+                                    <!-- End|Content -->
+                                 </td>
+                              </tr>
+                           </table>
+                           <!-- End|Column_2 -->
+                        </td>
+                        <!-- End| Two-Columns -->
+                     </tr>
+                  </table>
+               </td>
+            </tr>
             <!--End| TWO COLUMN SECTION -->
 
             <!-- Start| TWO COLUMN SECTION 2 -->
+            <tr>
+               <td
+                  style="padding: 15px 0 5px; border-bottom: 3px solid #44413d"
+               >
+                  <table width="100%" dir="rtl">
+                     <tr>
+                        <!-- Start| Two-Columns -->
+                        <td class="two-columns">
+                           <!-- Start|Column_1 -->
+                           <table class="column" dir="ltr">
+                              <tr>
+                                 <td class="padding">
+                                    <!-- Start|Content -->
+                                    <table class="content">
+                                       <tr>
+                                          <td>
+                                             <a href="#"
+                                                ><img
+                                                   src="./img/pexels-senanur-demircioglu-48865684-7683916.jpg"
+                                                   alt=""
+                                                   height="250"
+                                                   width="250"
+                                                   style="object-fit: cover"
+                                             /></a>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                    <!-- End|Content -->
+                                 </td>
+                              </tr>
+                           </table>
+                           <!-- End|Column_1 -->
+
+                           <!-- Start|Column_2 -->
+                           <table class="column">
+                              <tr>
+                                 <td class="padding">
+                                    <!-- Start|Content -->
+                                    <table class="content">
+                                       <tr>
+                                          <td>
+                                             <h2>Vintage Return</h2>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <p>
+                                                Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit.
+                                                Sequi molestias ipsa voluptate
+                                                atque excepturi nihil
+                                                necessitatibus voluptatum
+                                                assumenda aliquid fugit. Ab ut
+                                                vitae minus in odio eos ad sed
+                                                accusamus.
+                                             </p>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                             <a
+                                                href="#"
+                                                class="button"
+                                                style="color: #fff"
+                                                >Read More</a
+                                             >
+                                          </td>
+                                       </tr>
+                                    </table>
+                                    <!-- End|Content -->
+                                 </td>
+                              </tr>
+                           </table>
+                           <!-- End|Column_2 -->
+                        </td>
+                        <!-- End| Two-Columns -->
+                     </tr>
+                  </table>
+               </td>
+            </tr>
             <!-- End| TWO COLUMN SECTION 2 -->
 
             <!-- Start| BORDER -->
